@@ -1,3 +1,4 @@
+import './style.css' 
 import HeronsFormula from "./components/HeronsFormula.jsx";
 import NewtonsMethod from "./components/NewtonsMethod.jsx";
 import AmbiguousCase from "./components/AmbiguousCase.jsx";
