@@ -1,7 +1,7 @@
-import HeronsFormula from "./components/HeronsFormula";
-import NewtonsMethod from "./components/NewtonsMethod";
-import AmbiguousCase from "./components/AmbiguousCase";
-import PolynomialFunction from "./components/PolynomialFunction";
+import HeronsFormula from "./components/HeronsFormula.jsx";
+import NewtonsMethod from "./components/NewtonsMethod.jsx";
+import AmbiguousCase from "./components/AmbiguousCase.jsx";
+import PolynomialFunction from "./components/PolynomialFunction.jsx";
 
 function App() {
   return (
