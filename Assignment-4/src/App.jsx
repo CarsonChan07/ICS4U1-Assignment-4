@@ -6,10 +6,10 @@ import "./components/style.css"
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <HeronsFormula />
-      <NewtonsMethod />
       <AmbiguousCase />
+      <NewtonsMethod />
       <PolynomialFunction />
     </div>
   );
