@@ -29,8 +29,8 @@ function NewtonsMethod() {
         <div className="box">
             <h2>Newton's Method</h2>
             <input type="number" value={rootGuess} onChange={(e) => setRootGuess(parseFloat(e.target.value) || "")} placeholder="Initial Guess" />
-            <button onClick={calculateNewton}>Calculate</button>
             <input type="text" value={newtonResult} readOnly placeholder="Root Approximation" />
+            <button onClick={calculateNewton}>Calculate</button>
         </div>
     );
 }

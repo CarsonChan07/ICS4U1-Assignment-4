@@ -38,9 +38,9 @@ function PolynomialFunction() {
             <input type="text" value={coeffs} onChange={(e) => setCoeffs(e.target.value)} placeholder="Coefficients" />
             <input type="text" value={exps} onChange={(e) => setExps(e.target.value)} placeholder="Exponents" />
             <input type="number" value={xValue} onChange={(e) => setXValue(e.target.value)} placeholder="x Value" />
-            <button onClick={calculatePolynomial}>Calculate</button>
             <input type="text" value={polyResult} readOnly placeholder="Polynomial Function (Result)" />
             <input type="text" value={polyEvalResult} readOnly placeholder="Polynomial Evaluation (Result)" />
+            <button onClick={calculatePolynomial}>Calculate</button>
         </div>
     );
 }

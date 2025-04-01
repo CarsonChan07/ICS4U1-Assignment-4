@@ -37,8 +37,8 @@ function AmbiguousCase() {
             <input type="number" value={angleA} onChange={(e) => setAngleA(parseFloat(e.target.value) || "")} placeholder="Angle A" />
             <input type="number" value={sideA} onChange={(e) => setSideA(parseFloat(e.target.value) || "")} placeholder="Side A" />
             <input type="number" value={sideB} onChange={(e) => setSideB(parseFloat(e.target.value) || "")} placeholder="Side B" />
-            <button onClick={calculateAmbiguous}>Calculate</button>
             <input type="text" value={result} readOnly placeholder="Result" />
+            <button onClick={calculateAmbiguous}>Calculate</button>
         </div>
     );
 }
